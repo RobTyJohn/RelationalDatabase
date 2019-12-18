@@ -7,8 +7,10 @@
 // header files
 #include"Course.h"
 
+using namespace std;
+
 // Course class default constructor definitions
-Course::Course(int course_id, std::string course_number, std::string course_name, std::string course_quarter, std::string course_year, std::string course_subject) {
+Course::Course(int course_id, string course_number, string course_name, string course_quarter, string course_year, string course_subject) {
 	// takes function parameters and assigns values to local variables
 	courseID = course_id;
 	courseNumber = course_number;
