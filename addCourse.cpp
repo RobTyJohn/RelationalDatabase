@@ -5,8 +5,6 @@
 */
 
 // header files
-#include<iostream>
-#include<string>
 #include"MyCourses.h"
 #include"Course.h"
 
