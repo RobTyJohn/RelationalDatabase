@@ -8,10 +8,8 @@
 #include"MyCourses.h"
 #include"Course.h"
 
-using namespace std;
-
 // searchData() function definitions
-void MyCourses::searchData(string data) {
+void MyCourses::searchData(std::string data) {
 	// bool value to see if a match was found
 	bool dataFound = false;
 	// iterates through database looking for matches
@@ -49,6 +47,6 @@ void MyCourses::searchData(string data) {
 	}
 	// if no data was found, message prints to screen
 	if (!dataFound) {
-		cout << "\n**No data found**\n";
+		std::cout << "\n**No data found**\n";
 	}
 }
