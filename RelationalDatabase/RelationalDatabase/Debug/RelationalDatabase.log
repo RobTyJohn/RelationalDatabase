@@ -1,0 +1,6 @@
+﻿  printAllCourses.cpp
+C:\Projects\RelationalDatabase\trunk\printAllCourses.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+  searchData.cpp
+C:\Projects\RelationalDatabase\trunk\searchData.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  RelationalDatabase.vcxproj -> C:\Users\t_joh\source\repos\RelationalDatabase\RelationalDatabase\Debug\RelationalDatabase.exe
